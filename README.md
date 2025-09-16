@@ -96,7 +96,7 @@ following algorithms:
 
 -   2-party ECDSA secp256k1: generation and signing
 -   2-party EdDSA ed25519: generation and signing
--   2-party BIP32 (based on the [BIP32 specification](https://github.com/bitcoin/bips/blob/master/bip-0032.mediawiki)): generation, hard
+-   2-party BIP32 (based on the [BIP32 specification]()): generation, hard
     derivation, and normal derivation
 -   Key share refresh
 -   Zero-knowledge backup
@@ -357,3 +357,5 @@ for initialization. After initialization, each peer calls the
 finished with the signing process. The signature, which is the result of 
 the signing process, is received by calling the final function, 
 **MPCCrypto_finalEcdsaSign()**, after which the signing process is done.
+
+`If you have some questions in this project, feel free to reach out.`
